@@ -1,0 +1,60 @@
+/* styles.css */
+
+/* Body and Header Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #f9406565;
+    color: #fff;
+    text-align: center;
+    padding: 50px 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+/* Main Content Styling */
+.main-content {
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    padding: 30px;
+}
+
+.content-left, .content-right {
+    flex: 1;
+    padding: 20px;
+}
+
+.content-left h2, .content-right h2 {
+    color: #3498db;
+}
+
+/* Call to Action Styling */
+.cta {
+    text-align: center;
+    background-color: #8347;
+    padding: 50px 0;
+    color: #fff;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 30px;
+    background-color: #e7334c;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.cta-button:hover {
+    background-color: #c025492b;
+}
+
